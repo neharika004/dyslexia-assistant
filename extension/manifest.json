@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "DysRead — Adaptive Reading Assistant",
+  "version": "1.0.0",
+  "description": "Adaptive dyslexia-friendly reading assistant that learns your preferences",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/readability.js", "src/content.js"],
+      "css": ["styles/injected.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "DysRead Assistant"
+  },
+  "icons": {
+    "16":  "icons/icon16.png",
+    "48":  "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["styles/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
