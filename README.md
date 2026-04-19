@@ -16,25 +16,12 @@
 
 <br/>
 
-*Final Year Capstone Project — Computer Engineering, Vishwakarma Institute of Technology, 2025–26*
 
 </div>
 
 ---
 
-## 👥 Team
 
-| Name | Roll No. | GR No. | Email |
-|---|---|---|---|
-| Harshada Ghanwat | 39 | 12310307 | harshada.ghanwat23@vit.edu |
-| Utkarsha Kavitake | 56 | 12310686 | utkarsha.kavitake23@vit.edu |
-| Chaitanya Luniya | 65 | 12311681 | chaitanya.luniya23@vit.edu |
-| Nayana Majeti | 76 | 12310427 | nayana.majeti23@vit.edu |
-| Neharika Sharma | 77 | 12311451 | neharika.sharma23@vit.edu |
-
-**Internal Guide:** Prof. Vijay Rathod &nbsp;|&nbsp; **Project Coordinator:** Prof. Prajakta Musale &nbsp;|&nbsp; **HOD:** Prof. Dr. Premanand Ghadekar
-
----
 
 ## 📋 Table of Contents
 
