@@ -23,24 +23,6 @@
 
 
 
-## 📋 Table of Contents
-
-- [What is DysRead?](#-what-is-dysread)
-- [How It Works](#-how-it-works)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Prerequisites](#-prerequisites)
-- [Installation](#-installation)
-- [Running the Project](#-running-the-project)
-- [Loading the Chrome Extension](#-loading-the-chrome-extension)
-- [Using the System](#-using-the-system)
-- [Evaluation Dashboard](#-evaluation-dashboard)
-- [API Reference](#-api-reference)
-- [ML Model Details](#-ml-model-details)
-- [NLP Pipeline](#-nlp-pipeline)
-- [Team Contributions](#-team-contributions)
-- [Troubleshooting](#-troubleshooting)
 
 ---
 
@@ -113,15 +95,7 @@ The result is a Chrome extension that **transforms any webpage** — Wikipedia, 
 
 ---
 
-## ✨ Features
 
-- **🔍 Intelligent Text Analysis** — NLP pipeline extracts 9 dyslexia-specific readability features per sentence, going far beyond traditional Flesch-Kincaid metrics
-- **🤖 Personalised ML Adaptation** — LinUCB contextual bandit learns your optimal reading config over ~40–50 sessions, independently for each user
-- **✏️ Selective LLM Simplification** — Llama 3.2 rewrites only sentences above difficulty threshold 0.55, preserving easy text unchanged
-- **🎨 Live CSS Rendering** — Font, letter spacing, line height, word spacing, and background colour applied instantly to any webpage
-- **📊 Evaluation Dashboard** — Real-time Chart.js dashboard showing learning curves, action distributions, and per-user reward improvement
-- **🔒 100% Private** — Everything runs locally. No text or behaviour data ever leaves your machine
-- **💰 Zero Cost** — No API keys, no subscriptions. Ollama + Llama 3.2 are completely free
 
 ---
 
